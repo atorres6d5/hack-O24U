@@ -6,8 +6,12 @@ import {
   Menu,
   Table,
   Divider,
+  Image,
   Transition
 } from 'semantic-ui-react'
+import Carousel from "react-carousel"
+
+
 
 import 'semantic-ui-css/semantic.min.css'
 
@@ -22,6 +26,17 @@ class Landing extends Component {
       ]
     }
   }
+
+  // counter = ( )=>{
+  //   for(let i=0; i<arr.length; i++){
+  //     setTimeout(i=>{
+  //       return arr[i]
+  //     }, 6000)
+  //     i==arr.length-1 ? i=0 : null
+  //   }
+  // }
+
+
 
   render() {
     return (
@@ -42,8 +57,15 @@ class Landing extends Component {
 
         <Divider />
 
-        <Image src={this.state.picture} size='big' />
-
+        <Carousel
+          controlWidth={50}
+          itemWidth={240}
+          itemMargin={20}
+        >
+          <div>foo</div>
+          <div>bar</div>
+          <div>baz</div>
+        </Carousel>
 
 
       </div>
