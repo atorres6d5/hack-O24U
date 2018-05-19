@@ -5,7 +5,8 @@ import {
   Header,
   Menu,
   Table,
-  Divider
+  Divider,
+  Image
 } from 'semantic-ui-react'
 import ReadyToEat from "./components/readyToEat.js"
 import Dir from "./components/dir.js"
@@ -94,6 +95,8 @@ class App extends Component {
   }
 
   render() {
+    document.querySelector("body").style.backgroundImage=`url("./img/Homepage.jpg")`
+
     return (<div>
       <Grid centered>
         <Grid.Row>
@@ -102,7 +105,7 @@ class App extends Component {
                 textAlign: "center"
               }}>
               <Header.Content style={{justifyContent: "center"}}>
-                O2U
+                <Image src="./img/logo.png" style={{maxHeight:"8rem"}}/>
               </Header.Content>
             </Header>
           </Grid.Column>
