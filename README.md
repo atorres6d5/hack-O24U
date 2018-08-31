@@ -7,3 +7,11 @@ front end to prove concept of how to involve employees with a workspace that has
 The user would log in, see what food is ready now and then navigate to see other info as well as send info to the service team.
 
 link to project: https://docs.google.com/presentation/d/1MnnZ7KqjCs6ZAkhk5OeYOPRqonTh29oK4SGkFCHAlqU/edit?usp=sharing
+
+
+
+*** UPDATE ***
+
+Kimbal anounces winner of ther National Design Hack: TEAM O2U
+
+https://www.kimball.com/design/designhack/
